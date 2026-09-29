@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neelub Arooj | Frontend Developer</title>
+    <meta name="description" content="Portfolio of Neelub Arooj, BS Information Technology student and frontend developer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <header class="site-header">
+        <a href="#home" class="logo">Neelub Arooj</a>
+        <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+        <nav id="nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <h1>Hi, I'm <span class="grad">Neelub Arooj</span></h1>
+                    <p class="role">I'm a <span id="typed" class="grad-alt"></span><span class="cursor">|</span></p>
+                    <p class="lead">BS Information Technology student at Virtual University of Pakistan. I build clean, responsive web pages with HTML, CSS and JavaScript.</p>
+                    <div class="actions">
+                        <a class="btn primary" href="#projects">View my projects</a>
+                        <a class="btn" href="#contact">Get in touch</a>
+                    </div>
+                </div>
+                <div class="code-card" aria-hidden="true">
+                    <div class="dots"><span></span><span></span><span></span></div>
+<pre><code><span class="k">const</span> <span class="v">neelub</span> = {
+  <span class="p">role</span>: <span class="s">"Frontend Developer"</span>,
+  <span class="p">studying</span>: <span class="s">"BS IT"</span>,
+  <span class="p">location</span>: <span class="s">"Lahore"</span>,
+  <span class="p">skills</span>: [<span class="s">"HTML"</span>, <span class="s">"CSS"</span>, <span class="s">"JS"</span>],
+  <span class="p">internship</span>: <span class="s">"CodeAlpha"</span>
+};</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section reveal">
+            <div class="container">
+                <h2>About me</h2>
+                <p>I study Information Technology at Virtual University of Pakistan, a fully online university, and I'm based in Lahore. I enjoy turning ideas into simple, working web pages and I'm always practising something new.</p>
+                <p>Right now I'm a Frontend Development Intern at CodeAlpha, where I'm building practical projects and improving my skills step by step.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section alt reveal">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skill-groups">
+                    <div class="card">
+                        <h3>Frontend</h3>
+                        <ul class="chips"><li>HTML</li><li>CSS</li><li>Bootstrap</li><li>JavaScript</li></ul>
+                    </div>
+                    <div class="card">
+                        <h3>Backend and data</h3>
+                        <ul class="chips"><li>PHP</li><li>MySQL</li><li>Python</li></ul>
+                    </div>
+                    <div class="card">
+                        <h3>Tools</h3>
+                        <ul class="chips"><li>Git</li><li>GitHub</li></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section reveal">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <article class="card project">
+                        <h3>Calculator</h3>
+                        <p>A calculator with +, −, ×, ÷, brackets, percentages and full keyboard support.</p>
+                        <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+                        <a href="https://github.com/neelub-debug/CodeAlpha_Calculator" target="_blank" rel="noopener">View code on GitHub</a>
+                    </article>
+                    <article class="card project">
+                        <h3>Responsive website</h3>
+                        <p>A website that adapts to phones, tablets and desktops.</p>
+                        <ul class="chips"><li>HTML</li><li>CSS</li></ul>
+                        <a href="https://github.com/neelub-debug" target="_blank" rel="noopener">View code on GitHub</a>
+                    </article>
+                    <article class="card project">
+                        <h3>This portfolio</h3>
+                        <p>My personal site, with smooth scrolling, reveal animations and a responsive layout.</p>
+                        <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+                        <a href="https://github.com/neelub-debug/CodeAlpha_Portfolio" target="_blank" rel="noopener">View code on GitHub</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="section alt reveal">
+            <div class="container">
+                <h2>Resume</h2>
+                <ul class="timeline">
+                    <li>
+                        <h3>Frontend Development Intern, CodeAlpha</h3>
+                        <p>October 2026 (virtual internship)</p>
+                    </li>
+                    <li>
+                        <h3>BS Information Technology, Virtual University of Pakistan</h3>
+                        <p>In progress</p>
+                    </li>
+                </ul>
+                <a class="btn primary" href="resume.pdf" download>Download resume (PDF)</a>
+            </div>
+        </section>
+
+        <section id="contact" class="section reveal">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Want to work together or just say hello? Reach me here:</p>
+                <ul class="contact-list">
+                    <li><a href="mailto:aneelub@gmail.com">aneelub@gmail.com</a></li>
+                    <li><a href="https://github.com/neelub-debug" target="_blank" rel="noopener">github.com/neelub-debug</a></li>
+                    <li><a href="https://www.linkedin.com/in/neelub-arooj-96b0263b3" target="_blank" rel="noopener">linkedin.com/in/neelub-arooj-96b0263b3</a></li>
+                    <li>Lahore, Pakistan</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Neelub Arooj</p>
+    </footer>
+
+    <script src="port</script>
+</body>
+</html>
